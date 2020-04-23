@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="question"></div>
+                <p class="question">1. Quiz question #1</p>
+
+                <ul>
+                <input class="answer" type="radio" name="q1" value="1">
+                <label id="correctString1">correct answer 1</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>wrong answer</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>wrong answer</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>wrong answer</label>
+        </div>
+    <div class="answer"></div>
+        <div id="submitter">
+                <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+                type="submit" value="Submit" />
+            </div>
+        
+            <div class="quizAnswers" id="correctAnswer1"></div>
+            <div>
+                <h2 class="quizScore" id="userScore"></h2>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
